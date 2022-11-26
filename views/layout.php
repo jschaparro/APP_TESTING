@@ -9,23 +9,15 @@
 </head>
 <body>
 
-<div class="fondo">
-    <div class="contenedora">
-        <div class="caja">
-        <?php echo $contenido; ?>
-        </div>
-    </div>
-</div>
 
-
-    <!-- <div class="contenedor-app">
+    <div class="contenedor-app">
         <div class="imagen">
         <div class="app">
-            <?php //echo $contenido; ?>
+            <?php echo $contenido; ?>
         </div>
         </div>
         
-    </div> -->
+    </div>
 
 
     <?php
