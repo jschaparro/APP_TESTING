@@ -9,7 +9,7 @@
 <form class="formulario" method="POST" action="/crear-cuenta">
 
     <div class="campo">
-        <label for="nombre">Nombre</label>
+        <!-- <label for="nombre">Nombre</label> -->
         <input 
             type="text"
             id="nombre"
@@ -20,7 +20,7 @@
     </div>
 
     <div class="campo">
-        <label for="apellido">Apellido</label>
+        <!-- <label for="apellido">Apellido</label> -->
         <input 
             type="text"
             id="apellido"
@@ -31,7 +31,7 @@
     </div>
 
     <div class="campo">
-        <label for="telefono">Teléfono</label>
+        <!-- <label for="telefono">Teléfono</label> -->
         <input 
             type="tel"
             id="telefono"
@@ -42,7 +42,7 @@
     </div>
 
     <div class="campo">
-        <label for="email">E-mail</label>
+        <!-- <label for="email">E-mail</label> -->
         <input 
             type="email"
             id="email"
@@ -53,7 +53,7 @@
     </div>
 
     <div class="campo">
-        <label for="password">Password</label>
+        <!-- <label for="password">Password</label> -->
         <input 
             type="password"
             id="password"
@@ -67,6 +67,6 @@
 </form>
 
 <div class="acciones">
-    <a href="/">¿Ya tienes una cuenta? Inicia Sesión</a>
-    <a href="/olvide">¿Olvidaste tu password?</a>
+    <b><a href="/">¿Ya tienes una cuenta? Inicia Sesión</a></b>
+    <b><a href="/olvide">¿Olvidaste tu password?</a></b>
 </div>

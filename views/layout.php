@@ -8,12 +8,24 @@
     <link rel="stylesheet" href="/build/css/app.css">
 </head>
 <body>
-    <div class="contenedor-app">
-        <div class="imagen"></div>
-        <div class="app">
+
+<div class="fondo">
+    <div class="contenedora">
+        <div class="caja">
         <?php echo $contenido; ?>
         </div>
     </div>
+</div>
+
+
+    <!-- <div class="contenedor-app">
+        <div class="imagen">
+        <div class="app">
+            <?php //echo $contenido; ?>
+        </div>
+        </div>
+        
+    </div> -->
 
 
     <?php
